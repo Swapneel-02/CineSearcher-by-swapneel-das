@@ -17,7 +17,7 @@ const MoviePreviewCard = ({ info, extrainfo }) => {
     return (
       <div
         className="min-h-55 perspective-1000 hover:shadow-3xl flex w-48 transform cursor-pointer flex-col items-center gap-1
-          rounded-md border-b-2 border-gray-400 p-2 shadow-2xl transition-transform duration-500 ease-in-out hover:-translate-y-2 hover:rotate-3 hover:scale-105"
+          rounded-md border-b-2 border-gray-400 p-2 shadow-2xl"
         onClick={handleClick}
       >
         <img
@@ -40,7 +40,7 @@ const MoviePreviewCard = ({ info, extrainfo }) => {
   return (
     <div
       className="min-h-55 perspective-1000 hover:shadow-3xl flex w-48 transform cursor-pointer flex-col items-center gap-1
-          rounded-md border border-gray-400 p-2 shadow-2xl transition-transform duration-500 ease-in-out hover:-translate-y-2 hover:rotate-3 hover:scale-105"
+          rounded-md border border-gray-400 p-2 shadow-2xl"
       onClick={handleClick}
     >
       <img
